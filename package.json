@@ -1,0 +1,15 @@
+{
+  "name": "fbe",
+  "version": "1.0.0",
+  "description": "Refactoring a JS APP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "omartrujillo",
+  "license": "ISC"
+}
