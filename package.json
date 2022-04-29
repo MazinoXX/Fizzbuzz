@@ -13,6 +13,6 @@
   "author": "omartrujillo",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.0.2"
+    "jest": "^27.5.1"
   }
 }
