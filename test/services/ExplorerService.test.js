@@ -30,6 +30,6 @@ describe('Test para el service de los explorers', () => {
         const ExplorersUser = explorersInNode.map((explorer) => explorer.githubUsername)
 
         const explorergithubName = ExplorerService.getExplorersUsernameByMission(explorers,"node")
-        expect(ExplorersUser).toEqual(explorergithu)
+        expect(ExplorersUser).toEqual(explorergithubName)
     })
 })
