@@ -6,7 +6,6 @@ describe('Prueba del reader para los explorers', () => {
         const explorer = Reader.readJsonFile("explorers.json")
        
 
-        // Guardando la lectura del JSON para verificar que son iguales
         const rawdata = fs.readFileSync("explorers.json");
         const explorers = JSON.parse(rawdata);
 
