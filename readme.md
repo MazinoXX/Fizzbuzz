@@ -7,3 +7,4 @@ Refactoring de una app legada en JS.
 * JavaScript
 * Jest
 * Github Actions
+* ESLint
