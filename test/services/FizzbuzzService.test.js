@@ -29,4 +29,16 @@ describe("Preuba del servicio de Fizzbuzz para los explorers", () => {
 
         expect(explorer.trick).toBe("FIZZBUZZ");
     });
+    test("Nuevo requerimiento Fizzbuzz", () => {
+
+        const explorer1 =  {
+            name: "Woopa1",
+            githubUsername: "ajolonauta1",
+            score: 5,
+            mission: "node"
+        };
+
+        const explorer = FizzbuzzService.applyValidationInNumber(explorer1.score);
+        expect(explorer).toBe("BUZZ");
+    });
 });
